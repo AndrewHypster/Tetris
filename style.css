@@ -28,6 +28,7 @@ body {
 }
 
 .game {
+    grid-template-columns: 1fr 1fr 1fr;
     width: 320px;
     height: 620px;
     margin: 30px auto 0px;
