@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris</title>
+    <!-- font-family: 'Gajraj One', cursive; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left-buttons">
+        <p id="pause">Pause</p>
+        <p id="start">Start</p>
+        <p id="enter">&#8659;</p>
+        <p id="left">&#8592;</p>
+    </div>
+    <div class="box">
+        <div class="inform">
+            <div>Points: <span id="points">0</span></div>
+            <div id="nextTetro"></div>
+            <div>Level: <span id="level">0</span></div>
+        </div>
+        <div class="game"><div></div></div>
+    </div>
+    <div class="right-buttons">
+        <p id="round-arrow">&#8635;</p>
+        <p id="down">&#8595;</p>
+        <p id="right">&#8594;</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
